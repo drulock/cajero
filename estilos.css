@@ -1,0 +1,49 @@
+html {
+    height: 100%;
+}
+
+body { 
+    background-image: linear-gradient(to right, #005C97, #363795);
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 10px;
+    
+}
+
+.cuerpoCajero {
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+.boton {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-image: -webkit-linear-gradient(top, #005C97, #363795);
+    border: 1px solid grey;
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    text-shadow: 3px 2px 1px #363795;
+    -webkit-box-shadow: 6px 5px 24px #363795;
+    -moz-box-shadow: 6px 5px 24px #363795;
+    box-shadow: 6px 5px 24px #363795;
+    font-size: 15px;
+    text-decoration: none;
+    margin-left: 10px;
+}
+
+.boton:hover {
+    background-image: -webkit-linear-gradient(top, #363795, #005C97);
+    text-decoration: none;
+}
+
+.resultado, .inputButton {
+    padding-top: 20px;
+}
+
+
